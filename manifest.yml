@@ -1,0 +1,6 @@
+---
+applications:
+- name: cmu-mis-iccfb-image-microservice-0.1.0
+  path: ./build/libs/image-microservice-0.1.0.jar
+buildpack: https://github.com/cloudfoundry/java-buildpack.git
+memory: 512M
